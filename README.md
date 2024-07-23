@@ -3,7 +3,7 @@
 ### Para utilizar a API:
 ### - Clone o repositório
 ### - Instale as bibliotecas utilizadas em ex1/main.py ( pip install fastapi, pip install uvicorn, pip install pandas, pip install numpy, pip install matplotlib )
-### - Altere o caminho do arquivo paises.csv em ex1/main.py
+### - Altere o caminho do arquivo paises.csv em ex1/main.py para o caminho em seu computador
 ### - Abra o terminal e digite *fastapi dev ex1\main.py* e espere um retorno similar ao print abaixo:
 ![image](https://github.com/user-attachments/assets/af56f39f-a1b7-43d0-9940-d869423d1077)
 ### - No seu navegador, acesse: http://127.0.0.1:8000/docs# e interaja com a API: 
