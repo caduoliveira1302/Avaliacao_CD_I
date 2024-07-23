@@ -2,7 +2,6 @@ from fastapi import FastAPI
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import pickle
 
 #API
 app = FastAPI()
@@ -45,6 +44,7 @@ for ano in anos:
             dict_comex[ano][mes][pais] = criar_dados_comex()
 
 # ==================================================================================== #
+
 
 @app.get('/IMP-EXP-entre-{pais_origem}-{pais_destino}-{ano}')
 async def IMP_EXP(pais_origem: str, pais_destino: str, ano: int):
@@ -92,7 +92,7 @@ async def final_report_ano(pais_origem: str, pais_destino: str, ano: int):
     Retorna o report final do ano. Caso o ano não esteja completo, retorna até o último mês disponível.
     '''
     assert pais_origem != pais_destino
-    
+
     total_exp = []
     total_imp = []
 
