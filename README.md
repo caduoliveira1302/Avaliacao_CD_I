@@ -1,7 +1,8 @@
 # Avaliacao_CD_I
  
 ### Para utilizar a API:
-### - Instale fastapi e uvicorn ( pip install fastapi e pip install uvicorn )
+### - Clone o repositório
+### - Instale as bibliotecas utilizadas em ex1/main.py ( pip install fastapi, pip install uvicorn, pip install pandas, pip install numpy )
 ### - Altere o caminho do arquivo paises.csv em ex1/main.py
 ### - Abra o terminal e digite *fastapi dev ex1\main.py* e espere um retorno similar ao print abaixo:
 ![image](https://github.com/user-attachments/assets/af56f39f-a1b7-43d0-9940-d869423d1077)
