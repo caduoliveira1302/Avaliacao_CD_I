@@ -9,7 +9,9 @@
 1 - Selecione um dos GET's, e leia o que ele retorna 
 
 
-2 - Clique em "Try it out" e preenche os parâmetros (os parâmetros de países devem ser preenchidos com o código/sigla do país em caixa alta) ![image](https://github.com/user-attachments/assets/a31d9471-4e34-450f-bc24-f2f85298e38c) 
+2 - Clique em "Try it out" e preenche os parâmetros (os parâmetros de países devem ser preenchidos com o código/sigla do país em caixa alta)
+
+![image](https://github.com/user-attachments/assets/a31d9471-4e34-450f-bc24-f2f85298e38c) 
 
 
 3 - Clique em "Execute" ![image](https://github.com/user-attachments/assets/d454758d-2497-4e7e-b6a6-3a3ce93660be) 
